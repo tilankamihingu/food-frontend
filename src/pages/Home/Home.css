@@ -1,0 +1,40 @@
+.full{
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.first-container{
+    background-color: #17b978;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-left{
+    flex-basis: 75%;
+    margin-left: 20px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-left-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+    z-index: 1000;
+}
+
+.first-left-image img{
+    display: block;
+    object-fit: contain;
+    max-width: 200px;
+    height: 400px;
+}
+
+.first-right{
+    background-color: chocolate;
+    flex-basis: 25%;
+    right: 0;
+}

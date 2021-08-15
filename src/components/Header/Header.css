@@ -1,5 +1,6 @@
 .container{
     width: 100%;
+    max-width: 1280px;
     background-color: antiquewhite;
 }
 
@@ -13,7 +14,7 @@
     justify-content: space-between;
     /*background: #17b978;*/
     background-color: #086972;
-    position: fixed;
+    
     z-index: 1000;
 }
 
@@ -27,7 +28,6 @@
 
 nav{
     margin-right: 200px;
-    
     text-align: right;
 }
 

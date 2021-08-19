@@ -17,7 +17,7 @@ const Home = () => {
                    </div>
                </div>
                <div className="first-right">
-                    <h2>left</h2>
+                  
                </div>
            </div>
         </div>

@@ -4,8 +4,8 @@
 }
 
 .first-container{
-    background-color: #17b978;
-    height: 80vh;
+    background-color: #252529;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 .first-left{
     flex-basis: 75%;
     margin-left: 20px;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     display: flex;
     
     justify-content: space-between;
@@ -25,7 +25,7 @@
     margin-right: -180px;
     margin-bottom: 10px;
     padding: 5px;
-    background-color: cornflowerblue;
+   /* background-color: cornflowerblue;*/
     z-index: 1000;
 }
 
@@ -37,12 +37,12 @@
 }
 
 .first-left-details{
-    background-color: aqua;
+    /*background-color: aqua;*/
     display: flex;
     flex-direction: column;
     max-height: 400px;
     justify-content: center;
-    margin: 60px 40px;
+    margin: 140px 40px;
     padding-left: 20px;
 }
 
@@ -69,7 +69,23 @@
 }
 
 .first-right{
-    background-color: chocolate;
+    background-color: darkgoldenrod;
     flex-basis: 25%;
     right: 0;
+}
+
+.side-text{
+    background-color: khaki;
+    height: 100%;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-text h1{
+    font-size: 40px;
+    transform: rotate(-90deg);
+    margin-left: 100px;
 }

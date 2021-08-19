@@ -19,7 +19,7 @@ const Header = () => {
     return (
         <div className="container">
         <div className="navbar">
-            {/*<img src={Logo} alt="" className="logo" />*/}
+            <img src={Logo} alt="" className="logo" />
             <nav>
                 <ul style={styleMenu}>
                     <li onClick={toggleMenu}><Link to="/">Home</Link></li>
